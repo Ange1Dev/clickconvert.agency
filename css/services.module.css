@@ -1,0 +1,130 @@
+.services {
+  width: 100%;
+  padding: 40px 0px;
+  position: relative;
+  height: auto;
+
+}
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  text-align: center;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; /* Espacio entre las tarjetas */
+  max-width: 960px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.cards > div {
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+
+  min-height: 300px;
+  background: #151a24;
+  padding: 35px 20px;
+  text-align: center;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.cards > div::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(90deg, #f25e84 17.7%, #f7a958 80.49%);
+  z-index: -1;
+  border-radius: 30px;
+}
+
+.cards > div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid;
+  border-color: #f25e84 #f7a958;
+  border-radius: 30px;
+}
+
+.cards > div h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.cards > div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 200px;
+  color: #ddd;
+}
+
+.cards > div span {
+  width: 150px;
+  height: 150px;
+
+  background: #21262f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  line-height: 28px;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+
+.gradient3 {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -30%;
+  left: -15%;
+  z-index: -1;
+  
+}
+
+.gradient4 {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  bottom: 40%;
+  right: -15%;
+  z-index: -1;
+  
+}

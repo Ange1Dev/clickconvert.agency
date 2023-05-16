@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.hr {
+    width: 80%;
+}
+.footer h3 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+
+  /* identical to box height */
+  text-align: center;
+}
+
+.icon {
+  width: 200px;
+  object-fit: contain;
+}
+
+.consulta {
+    margin-bottom: 10px;
+}
+.footer ul {
+  margin-bottom: 40px;
+
+}
+.footer p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 34px;
+  text-align: center;
+  width: 614px;
+}
+
+.item {
+    font-size: 30px;
+}
