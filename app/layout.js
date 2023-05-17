@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'ClickConvert Agency',
-  description: 'Agencia de marketing digital argentina',
+  description: 'Somos una agencia de marketing digital con sede en Argentina y estamos aquí para ayudarte a llevar tu negocio al siguiente nivel. En ClickConvert Agency, entendemos que el éxito en el mundo digital se basa en la creación de un sólido embudo de ventas que transforme a los visitantes en clientes leales.',
 }
 
 export default function RootLayout({ children }) {
