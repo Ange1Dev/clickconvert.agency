@@ -18,6 +18,7 @@ export default function Footer() {
         Si tienes alguna duda contáctanos a{" "}
         <b>clickconvert.agencydev@gmail.com</b>
       </p>
+      <p>O mandanos un mensaje por nuestras redes sociales!</p>
       <ul>
         <li className={styles.item}>
           <a

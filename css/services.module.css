@@ -128,3 +128,20 @@
   z-index: -1;
   
 }
+
+@media screen and (max-width: 700px) {
+  .cards {
+      display: flex;
+      grid-gap: 20px;
+      max-width: 960px; 
+      margin: 0 auto; 
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .desc {
+    padding: 0px 10px;
+    width: auto;
+  }
+
+}

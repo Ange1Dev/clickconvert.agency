@@ -76,3 +76,24 @@
   z-index: -1;
   
 }
+
+@media screen and (max-width: 700px){
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards > div {
+    width: 300px;
+    max-height: 400px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+  }
+  .cards > div h4 {
+    max-width: 300px;
+  }
+  .cards > div p {
+    margin-bottom: 0px;
+    height: auto;
+  }
+  
+}
