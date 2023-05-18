@@ -11,21 +11,21 @@
   left: 0;
 }
 .containericon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .containericon span {
-    margin-top: 8px;
-    margin-left: 10px;
-    font-weight: 300;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-weight: 300;
 }
 .icon {
-    width: 150px;
-    height: auto;
-    object-fit: contain;
-  }
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+}
 .list {
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
   margin-right: 25px;
 }
 .list li:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 .active {
   background: linear-gradient(90deg, #f25e84 17.7%, #f7a958 80.49%);
@@ -70,11 +70,9 @@
 }
 
 .button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: .7;
-
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.7;
 }
-
 
 @media screen and (max-width: 700px) {
   .navbar {
@@ -86,7 +84,25 @@
   }
   .button {
     padding: 10px 15px;
-    font-size: .8em;
+    font-size: 0.8em;
   }
+}
 
+@media screen and (max-width: 700px) {
+  .navbar {
+    margin: 15px 0px;
+    padding: 0px 10px;
+  }
+  .list {
+    display: none;
+  }
+  .button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+  .containericon span {
+    margin-top: 8px;
+    margin-left: 5px;
+    font-weight: 300;
+  }
 }
