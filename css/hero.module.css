@@ -147,14 +147,14 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .left {
     padding-left: 0px;
     width: 100%;
   }
   .hero {
     padding: 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     height: 80vh;
   }
   .left h2 {
@@ -162,13 +162,15 @@
     font-weight: 600;
     font-size: 4em;
     color: #ffffff;
+    width: 100%;
+
   }
   .left span {
     font-size: 4.5em;
   }
   .left p {
     padding: 0px;
-    width: 300px;
+    width: 100%;
   }
   .left a {
     width: 100%;
@@ -178,5 +180,14 @@
   }
   .right {
     display: none;
+  }
+  .gradient2 {
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    bottom: -50%;
+    right: -35%;
+    z-index: -1;
+    
   }
 }

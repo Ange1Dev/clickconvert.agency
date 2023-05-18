@@ -6,47 +6,46 @@ export default function Services() {
   const content = [
     {
       id: 1,
-      content: "Estrategias Personalizadas",
-      image: "note.png",
+      content: "Facebook Ads",
+      image: "facebook.png",
       description:
-        "En clickconvert analizamos a nuestros clientes y damos estrategias de marketing espcializadas para cada cliente",
+        "Creamos, gestionamos y analizamos campañas de facebook ads.",
     },
     {
       id: 2,
-      content: "Pagas a base a resultados",
-      image: "wallet.png",
+      content: "Desarrollo de sitios webs",
+      image: "page.png",
       description:
-        "En clickconvert analizamos a nuestros clientes y damos estrategias de marketing espcializadas para cada cliente",
+        "Desarrollamos páginas de aterrizajes e tiendas en linea",
     },
     {
       id: 3,
-      content: "Procesos profesionales",
-      image: "verified.png",
+      content: "CRO",
+      image: "points.png",
       description:
-        "En clickconvert tenemos procesos profesionales y de alta calidad, buscamos ser lo más profesionales en lo que hacemos.",
+        "Optimizamos la tasa de conversion de tu ecommerce.",
     },
     {
       id: 4,
-      content: "Estrategias Personalizadas",
-      image: "note.png",
+      content: "Email Marketing",
+      image: "inbox.png",
       description:
-        "En clickconvert analizamos a nuestros clientes y damos estrategias de marketing espcializadas para cada cliente",
+        "Hacemos seguimiento de emails a clientes aumentando asi las ventas",
     },
     {
       id: 5,
-      content: "Pagas a base a resultados",
-      image: "wallet.png",
+      content: "Tiktok Ads",
+      image: "tiktok.png",
       description:
-        "En clickconvert analizamos a nuestros clientes y damos estrategias de marketing espcializadas para cada cliente",
+        "Creamos anuncios con tipo de contenido especifico para generar trafico",
     },
     {
       id: 6,
-      content: "Procesos profesionales",
-      image: "verified.png",
+      content: "Contenido UGC",
+      image: "group.png",
       description:
-        "En clickconvert tenemos procesos profesionales y de alta calidad, buscamos ser lo más profesionales en lo que hacemos.",
+        "Creamos un tipo de contenido efectivo",
     },
-    // Agrega más elementos según tus necesidades
   ];
   return (
     <div className={styles.services}>
@@ -69,7 +68,7 @@ export default function Services() {
           <div key={item.id}>
             <span>
               <Image
-                src={`/about/${item.image}`}
+                src={`/servic/${item.image}`}
                 width={50}
                 height={50}
                 alt="Imagen"
