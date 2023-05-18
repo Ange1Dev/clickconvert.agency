@@ -97,6 +97,10 @@
   margin-bottom: 10px;
 }
 
+.cards > div span img {
+  width: 50px;
+  height: auto;
+}
 .desc {
   font-style: normal;
   font-weight: 300;

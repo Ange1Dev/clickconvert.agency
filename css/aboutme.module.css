@@ -54,6 +54,10 @@
   width: 200px;
   color: #ddd;
 }
+.cards > div span img {
+  width: 50px;
+  height: auto;
+}
 
 .cards > div span {
   width: 150px;
